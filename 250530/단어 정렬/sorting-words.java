@@ -9,7 +9,7 @@ public class Main {
         int n = sc.nextInt();
         String[] wordList = new String[n];
         for (int i = 0; i < n; i++) { 
-            wordList[i] = sc.neㅁxt();
+            wordList[i] = sc.next();
         }
 
         Arrays.sort(wordList);
