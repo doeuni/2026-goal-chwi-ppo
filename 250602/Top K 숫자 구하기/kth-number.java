@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,6 +14,8 @@ public class Main {
             nums[i] = sc.nextInt();
             // System.out.print(nums[i]+" ");
         }
+
+        Arrays.sort(nums);
 
         System.out.print(nums[k]+" ");
 
