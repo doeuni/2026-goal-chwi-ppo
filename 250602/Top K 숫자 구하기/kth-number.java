@@ -16,8 +16,10 @@ public class Main {
         }
 
         Arrays.sort(nums);
-
-        System.out.print(nums[k]+" ");
+    //    for (int i = 0; i < n; i++) {
+    //         System.out.print(nums[i]+" ");
+    //     }
+        System.out.print(nums[k-1]+" ");
 
     }
 }
